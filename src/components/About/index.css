@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.about-container {
+  height: 100vh;
+}
+.about-content > img {
+  width: 20%;
+}
+.dark {
+  background-color: black;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 150px;
+}

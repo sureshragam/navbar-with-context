@@ -1,0 +1,44 @@
+/* Write your CSS here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  gap: 10px;
+}
+nav > img {
+  width: 50px;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+}
+button > img {
+  width: 50px;
+}
+.link {
+  text-decoration: none;
+}
+nav > ul {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav > ul > .link > li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.grey {
+  background-color: #333333;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+  background-color: white;
+}
